@@ -1,0 +1,18 @@
+body {
+  /* background-color: red; */
+}
+
+footer {
+  color: #f00;
+  font-size: 32px;
+}
+#section_one {
+  color: rgba(139, 52, 221, 1);
+}
+.standart_section {
+  color: aqua;
+}
+.header{
+    color: red; 
+    font-weight: 700;
+}
