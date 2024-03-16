@@ -1,18 +1,37 @@
-body {
-  /* background-color: red; */
-}
+/* body {
+  background-color: red;
+} */
 
 footer {
   color: #f00;
-  font-size: 32px;
 }
 #section_one {
   color: rgba(139, 52, 221, 1);
+  background-color: aquamarine;
 }
 .standart_section {
   color: aqua;
+  background-color: rgb(20, 166, 251);
 }
 .header{
-    color: red; 
+    color: #fff; 
     font-weight: 700;
+    background-color: #f00;
+    height: 60px;
+}
+.footer{
+    color: #fff;
+    background-color: #000;
+    font-size: 52px;
+    /* padding-bottom: 52px; */
+}
+
+.google_link{
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 46px;
+}
+
+img, video{
+    width: 400px;
 }
