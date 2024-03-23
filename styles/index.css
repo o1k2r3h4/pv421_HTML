@@ -1,50 +1,48 @@
-body {
-    margin: 0;
-    padding: 0;
+/* GLOBAL */
+.container{
+    margin: 0 90px;
 }
 
-/* TEAM */
-.team{
+/* HEADER */
+.header{
     display: flex;
-    justify-content: space-around; 
-    align-items: start;
-    flex-direction: row;
-}
-
-.team__card{
-    width: 200px;
-    height: 250px;
-
-    background-color: #f7fcd9;
-    border-radius: 8px;
-    padding: 12px 8px;
-
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
-.team__card > h4{
-    font-size: 24px;
-    margin: 14px;
+.header__logo{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
-.team__card > p {
+.header__logo > img {
+    width: 156px;
+    height: 64px;
+}
+
+.header nav > ul{
     margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
 }
 
-.team__card_photo{
-    width: 150px;
-    height: 150px;
-    min-width: 150px;
-    min-height: 150px;
-    max-width: 150px;
-    max-height: 150px;
+.header nav > ul > li {
+    list-style: none;
+    margin-left: 20px;
+}
 
-    background-color: #f00;
-    border-radius: 50%;
+.header nav > ul > li > a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #FF9100 !important;
+}
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.header nav > ul > li > a:hover{
+    color: #D56363 !important;
 }
