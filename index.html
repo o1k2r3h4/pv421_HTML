@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
     <!-- !HEADER -->
@@ -33,39 +39,59 @@
       </nav>
     </header>
     <main>
-      <section class="project">
-        Projects
-      </section>
+      <section class="project">Projects</section>
     </main>
     <!-- !FOOTER -->
     <footer class="footer">
       <div class="footer__info container">
         <a href="/" class="footer__info_logo">
-          <img src="./assets/pictures/logo_white.png" alt="logo">
+          <img src="./assets/pictures/logo_white.png" alt="logo" />
         </a>
+        <!-- first column -->
+
         <div class="footer__info_nav">
-          <!-- first column -->
           <ul>
-            <li><a href="#"></a>Новини</li>
-            <li><a href="#"></a>Проекти</li>
-            <li><a href="#"></a>Команда</li>
-          </ul>
-          <!-- second column -->
-          <ul>
-            <li><a href="#"></a>Про нас</li>
-            <li><a href="#"></a>Коворкінг</li>
+            <li><a href="#">Новини</a></li>
+            <li><a href="#">Проекти</a></li>
+            <li><a href="#">Команда</a></li>
           </ul>
         </div>
+        <!-- second column -->
+        <div class="footer__info_nav">
+          <ul>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Коворкінг</a></li>
+          </ul>
+        </div>
+        <!-- second column -->
+        <div class="footer__info_nav">
+          <ul>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Коворкінг</a></li>
+          </ul>
+        </div>
+
         <div class="footer__info_contacts">
-            <a href="">
-              <img src="" alt="phone-icon">
-              <p>+380 99 999 99 99</p>
-            </a>
-            <a href="">
-              <img src="" alt="mail-icon">
-              <p>john@sins.com</p>
-            </a>
+          <a href="tel:+380 99 999 99 99">
+            <img src="./assets/pictures/phone-icon.png" alt="phone-icon" />
+            <p>+380 99 999 99 99</p>
+          </a>
+          <a href="mailto: john@sins.com">
+            <img src="./assets/pictures/email-icon.png" alt="email-icon" />
+            <p>john@sins.com</p>
+          </a>
         </div>
+      </div>
+      <div class="footer__socials">
+        <a href="#" target="_blank">
+          <img src="./assets/pictures/telegram.png" alt="telegram">
+        </a>
+        <a href="#" target="_blank">
+          <img src="./assets/pictures/facebook.png" alt="facebook">
+        </a>
+        <a href="#" target="_blank">
+          <img src="./assets/pictures/instagram.png" alt="instagram">
+        </a>
       </div>
     </footer>
   </body>
