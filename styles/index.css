@@ -181,17 +181,75 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-  .footer__info{
+  .footer__info {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
   }
-  .footer__info_nav > ul > li{
+  .footer__info_nav > ul > li {
     margin-bottom: 8px;
   }
-  .footer__info_nav > ul{
+  .footer__info_nav > ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+/* ! BURGER  */
+.burger {
+  width: 38px;
+  height: 28px;
+  position: relative;
+}
+.burger > span {
+  display: block;
+  width: 100%;
+  height: 6px;
+  border-radius: 12px;
+  position: absolute;
+  transition: 0.3s;
+}
+.burger :first-child {
+  top: 0;
+  left: 0;
+  background-color: #ff9100;
+}
+
+.burger :nth-child(2){
+  top: calc(50% - (6px / 2));
+  left: 0;
+  background-color: #d56363;
+}
+
+.burger :last-child{
+  bottom: 0;
+  left: 0;
+  background-color: #ff9100;
+}
+/* active */
+.burger.active > span{
+  transition: 0.3s;
+} 
+
+.burger.active :first-child{
+  transform: rotate(-45deg);
+  top: calc(50% - 6px) ;
+}
+
+
+.burger.active :nth-child(2){
+  display: none;
+}
+
+.burger.active :last-child{
+  bottom: 50%;
+  transform: rotate(45deg);
+}
+
+/* !RESPONSIVE BURGER */
+@media screen and (min-width: 1140px) {
+  .burger {
+    display: none;
   }
 }
