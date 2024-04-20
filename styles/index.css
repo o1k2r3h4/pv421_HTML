@@ -382,10 +382,12 @@ header nav.burger-menu {
   grid-template-columns: repeat(6, 1fr);
   /* grid-template-rows: minmax(100px, 150px); */
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .exp div {
   background-color: #0cb7f5;
+  
 }
 
 .exp__sqr{
@@ -408,4 +410,9 @@ header nav.burger-menu {
 .exp :nth-child(16){
   grid-column: 4 / 6;
   grid-row: 4 / 6;
+}
+
+/*! Form  */
+form > div{
+  margin-bottom: 20px;
 }

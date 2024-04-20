@@ -84,7 +84,94 @@
         <div>18</div>
         <div>19</div>
         <div>20</div>
-        <div>21</div>       
+        <div>21</div>
+      </section>
+      <section class="form container">
+        <form>
+          <legend>My Test Form</legend>
+          <div>
+            <label for="form_name">Name:</label>
+            <input
+              type="text"
+              id="form_name"
+              name="first_name"
+              placeholder="Enter your name..."
+              value="test"
+            />
+          </div>
+
+          <div>
+            <label for="phone_number">Phone:</label>
+            <input type="number" name="phone" id="phone_number" value="380999999999" required/>
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+          </div>
+
+          <div>
+            <input type="checkbox" id="tos" name="tos" value="yes">
+            <label for="tos">I accept for all</label>
+          </div>
+
+          <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label></br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label></br>
+          </div>
+
+          <div>
+            <!-- <label for="country">Country</label> -->
+            <select name="country" id="country">
+              <option value="" disabled selected>Select Country</option>
+              <option value="usa">United States</option>
+              <option value="ua">Ukraine</option>
+              <option value="uk">United Kingdom</option>
+            </select>
+          </div>
+
+          <div>
+            <textarea name="comment" id="">
+
+            </textarea>
+          </div>
+        
+          <div>
+            <label for="file"></label>
+            <input type="file" name="file" id="file">
+          </div>
+
+          <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+          </div>
+
+        <div>
+          <label for="time">Time</label>
+          <input type="time" name="time" id="time">
+        </div>
+
+        <div>
+          <label for="color">Color</label>
+          <input type="color" name="color" id="color">
+        </div>
+
+        <div>
+          <input type="image" src="/assets/pictures/logo.png" alt="">
+        </div>
+
+        <div>
+          <input type="password" name="test" id="test">
+        </div>
+
+        <div>
+          <input type="range" name="test" id="tets">
+        </div>
+
+          <input type="submit" value="Submit" />
+        </form>
       </section>
     </main>
     <!-- !FOOTER -->
